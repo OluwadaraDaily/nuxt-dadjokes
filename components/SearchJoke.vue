@@ -29,11 +29,11 @@ export default {
 <style>
 input {
 	margin: 10px 0;
-	padding: 8px 0;
+	padding: 8px 5px;
 	border-radius: 4px;
 }
 input[type="text"]{
-	width: 80%;
+	width: 85%;
 }
 
 </style>
