@@ -22,7 +22,7 @@ html {
 	padding: 0;
 	margin: 0;
 	background-color: #fff;
-	font-family: 'Russo One', sans-serif;
+	/*font-family: 'Russo One', sans-serif	;*/
 }
 div .main-text {
 	text-align: right;

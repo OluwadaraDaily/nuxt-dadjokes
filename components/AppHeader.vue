@@ -16,6 +16,9 @@
 	  	<div class="nav-link">
 	  		<nuxt-link to="/random"> Random Joke </nuxt-link>
 	  	</div>
+	  	<div class="nav-link">
+	  		<nuxt-link to="/send"> Send Joke </nuxt-link>
+	  	</div>
 	  </div>
   </header>
 </template>

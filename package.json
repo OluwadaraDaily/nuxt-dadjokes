@@ -11,7 +11,9 @@
   "dependencies": {
     "axios": "^0.21.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "twilio": "^3.53.0",
+    "vue-cookies": "^1.7.4"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
