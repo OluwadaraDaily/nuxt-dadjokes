@@ -38,7 +38,7 @@ export default {
 					Accept: "application/json"
 			}
 		}
-			const response = await axios("https://icanhazdadjoke.com/", config)
+			const response = await axios.get("https://icanhazdadjoke.com/", config)
 			this.joke = response.data
 			console.log(response.data)		
 		}

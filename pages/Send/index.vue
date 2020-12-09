@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+
   	<h1> Send a Random Joke To a Friend</h1> <hr>
   	<div id="form">
 	  	<form @submit.prevent="sendJoke">
@@ -18,7 +19,7 @@
 	  			<textarea name="message" v-model="message" required></textarea>
 	  		</div>
 
-	  		<input type="submit" value="Send a Random Joke">
+	  		<input type="submit" id="submit-btn" value="Send a Random Joke">
 	  	</form>
 	  </div> <hr>
 	  <div>
@@ -52,7 +53,7 @@ export default {
 					Accept: "application/json"
 				}
 			}
-			const response_joke = await axios("https://icanhazdadjoke.com/", config)
+			const response_joke = await axios.get("https://icanhazdadjoke.com/", config)
 			this.joke = response_joke.data
 			// console.log(response.data)
 			
@@ -62,7 +63,7 @@ export default {
 				message: this.message,
 				joke: this.joke
 			}
-			const response = await axios.post("http://127.0.0.1:3333/send", body)
+			const response = await axios.post("https://adonis-dadjokes-api.herokuapp.com/send/email", body)
 
 			this.email = ""
 			this.name = ""
