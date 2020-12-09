@@ -70,6 +70,7 @@ export default {
 			this.message = ""
 			// console.log(body)
 			console.log(response)
+			alert("Message Sent")
 		}
 	}
 };
