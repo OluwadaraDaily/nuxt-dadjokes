@@ -2,7 +2,7 @@
 	<div>
 		<form @submit.prevent="onSearch">
 			<input type="text" v-model="text" name="search">
-			<input type="submit" value="Search">
+      <button><i class="fas fa-search"></i></button>
 		</form>
 	</div>
 </template>
@@ -27,13 +27,21 @@ export default {
 </script>
 
 <style scoped>
-input {
-	margin: 10px 0;
-	padding: 8px 5px;
-	border-radius: 4px;
+input, button {
+  padding: 15px 10px;
+  border-radius: 4px;
 }
+
 input[type="text"]{
-	width: 85%;
+  margin: 10px 0;
+	width: 80%;
+  font-size: 20px;
+}
+
+button {
+  background-color: #3491d9;
+  color: white;
+  padding-top: 20px;
 }
 
 </style>

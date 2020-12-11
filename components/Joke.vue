@@ -15,17 +15,18 @@ export default {
 
 <style>
 .joke {
-	padding: 50px 0;
-	margin: 10px 0;
-	border: 2px solid black;
-	transition: background-color 2s;
+	padding: 50px 10px;
+	margin: 30px 0;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	-webkit-box-shadow: 4px 4px 11px 0px rgba(52, 145, 217, 0.78);
+	-moz-box-shadow:    4px 4px 11px 0px rgba(52, 145, 217, 0.78);
+	box-shadow:         4px 4px 11px 0px rgba(52, 145, 217, 0.78);
+	font-size: 22px;
 }
 a{
 	text-decoration: none;
 	color: black;
 }
-a:hover .joke {
-	background-color: black;
-	color: white;
-}
+
 </style>

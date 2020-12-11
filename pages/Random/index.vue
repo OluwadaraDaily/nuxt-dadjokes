@@ -48,6 +48,10 @@ export default {
 
 <style scoped>
 	#refresh {
-		padding: 5px;
+		padding: 10px;
+		background-color: #3491d9;
+		color: #fff;
+		border:	none;
+		border-radius: 3px;
 	}
 </style>

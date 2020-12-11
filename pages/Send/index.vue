@@ -82,11 +82,20 @@ export default {
 		text-align: center;
 	}
 	input[type="text"], input[type="email"], textarea {
-		width: 50%;
+		width: 90%;
 		padding: 10px 0;
 		font-size: 20px;
-		margin: 10px 0;
+		margin: 15px 0;
 	}
+
+	input[type="submit"] {
+		background-color: #3491d9;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		padding: 15px;
+	}
+
 	label {
 		font-weight: bolder;
 	}

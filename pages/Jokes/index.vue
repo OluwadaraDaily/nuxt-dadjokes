@@ -49,3 +49,9 @@ export default {
 	}
 };
 </script>
+
+<style>
+	body {
+		color: #3491d9;
+	}
+</style>
