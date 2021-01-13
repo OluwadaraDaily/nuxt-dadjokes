@@ -7,7 +7,7 @@ export default {
     title: 'Dad Jokes',
     script: [
       {
-        src: '/js/posthog.js'
+        src: '/static/js/posthog.js'
       }
     ],
     meta: [
